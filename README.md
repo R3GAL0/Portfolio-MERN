@@ -10,7 +10,6 @@ A website to serve as my portfolio. It shows a number of the projects I have mad
 
 
 TBD:
- - nav bar links disappear with smaller screen sizes
  - styling
  - redeploy defunct projects
  - add smtp server

@@ -5,7 +5,7 @@ import './card.css';
 export default function ProjCard({ proj }) {
     // makes a card with img, github link, and video/deployment link wraped in an li
     return (
-        <li className={'background '} style={{
+        <li className={'background'} style={{
             backgroundImage: `URL(${proj[3]})`
         }}>
             <div className='infoCard'>
