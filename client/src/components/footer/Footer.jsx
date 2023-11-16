@@ -1,5 +1,5 @@
 // taking the same logic from the header nav for the footer
-// keys are given '1x' value to separate them
+// keys are given 'fx' value to separate them
 
 // Bringing in the required import from 'react-router-dom'
 import { Link } from 'react-router-dom';
@@ -10,13 +10,13 @@ export default function Footer() {
   return (
     <Navbar
       links={[
-        <Link key={11} className="nav-link text-light" to="https://github.com/R3GAL0">
+        <Link key={'f1'} className="nav-link text-light" to="https://github.com/R3GAL0">
           Github
         </Link>,
-        <Link key={12} className="nav-link text-light" to="https://www.linkedin.com/in/max-walent-32b94216a/">
+        <Link key={'f2'} className="nav-link text-light" to="https://www.linkedin.com/in/max-walent-32b94216a/">
           LinkedIn
         </Link>,
-        <Link key={13} className="nav-link text-light" to="https://stackoverflow.com/users/22923477/r3gal">
+        <Link key={'f3'} className="nav-link text-light" to="https://stackoverflow.com/users/22923477/r3gal">
           Stack Overflow
         </Link>,
       ]}

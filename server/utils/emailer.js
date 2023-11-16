@@ -1,5 +1,6 @@
 // can only send 30 emails per day
-const nodemailer = require('nodemailer');
+// const nodemailer = require('nodemailer');
+import nodemailer from 'nodemailer'
 // emailer tool
 // https://nodemailer.com/about/
 // smtp server
@@ -19,7 +20,7 @@ const transporter = nodemailer.createTransport({
 });
 
 // takes in a recieving address, a suject, and a message
-async function sendEmail(email, subject, msg) {
+export default async function sendEmail(email, subject, msg) {
   // send mail with defined transport object
   console.log('Going to send mail')
   const info = await transporter.sendMail({
@@ -36,4 +37,4 @@ async function sendEmail(email, subject, msg) {
 
 // sendEmail(email, 'A subject', 'Your free spam email').catch(console.error);
 
-module.exports = sendEmail;
+// module.exports = sendEmail;
