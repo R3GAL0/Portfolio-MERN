@@ -13,7 +13,7 @@ export default function ResumePage() {
                     <div className='row'>
                     <div className='col-4'>
                 <h4>Front-end Technologies</h4>
-            <ul style={{'list-style': 'none', 'text-align': 'left'}}>
+            <ul style={{'listStyle': 'none', 'textAlign': 'left'}}>
                 <li>HTML 5
                 </li>
                 <li>CSS
@@ -33,7 +33,7 @@ export default function ResumePage() {
             
             <div className='col-4'>
             <h4>Back-end Technologies</h4>
-            <ul style={{'list-style': 'none', 'text-align': 'left'}}> 
+            <ul style={{'listStyle': 'none', 'textAlign': 'left'}}> 
                 <li>APIs (RESTFUL)
                 </li>
                 <li>Node

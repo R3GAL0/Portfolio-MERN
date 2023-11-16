@@ -16,7 +16,7 @@ export default function Footer() {
         <Link key={12} className="nav-link text-light" to="https://www.linkedin.com/in/max-walent-32b94216a/">
           LinkedIn
         </Link>,
-        <Link key={13} className="nav-link text-light" to="#">
+        <Link key={13} className="nav-link text-light" to="https://stackoverflow.com/users/22923477/r3gal">
           Stack Overflow
         </Link>,
       ]}

@@ -8,3 +8,6 @@ contact page
     emailer
 resume page
     basic list of qualifications and link to download resume
+
+
+add the emailer to the 404 page 
