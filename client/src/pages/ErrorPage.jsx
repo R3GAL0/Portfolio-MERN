@@ -5,6 +5,7 @@ export default function ErrorPage() {
     async function handleSubmit(event) {
         event.preventDefault();
         // logic to verify content ?
+        console.log('send data')
         let response = await fetch('/', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },

@@ -1,0 +1,11 @@
+.background {
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+
+}
+
+.background:hover {
+    filter: sepia(100%) saturate(300%) brightness(70%) hue-rotate(180deg);
+
+}

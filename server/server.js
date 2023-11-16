@@ -7,9 +7,6 @@ const app = express()
 // Morgan
 app.use(morgan('tiny'))
 
-// Starting server
-app.listen('3000')
-console.log('Server listening on PORT 3000')
 
 // routes below
 
@@ -20,16 +17,20 @@ app.get('/', (req, res) => {
 
 // email route
 // for 404 page, and contact page
-import sendEmail from './utils/emailer'
+const sendEmail = require('./utils/emailer');
 app.post('/', (req, res) => {
     try {
-        // send the email
-        sendEmail(req.body.email, req.body.subject, req.body.msg)
-        // subject is 'Error', or 'Contact'
-        res.json('email sent')
+        // disabled until i can find an smtp server
+        // sendEmail(req.body.email, req.body.subject, req.body.msg)
+        res.json('email function is disabled in server.js')
 
     } catch (err) {
         console.log(err)
         res.status(500).json(err);
     }
 })
+
+
+// Starting server
+app.listen('3000')
+console.log('Server listening on PORT 3000')
