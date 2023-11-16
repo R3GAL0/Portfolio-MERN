@@ -6,10 +6,11 @@
 
 ## Description
 
-A website to serve as my portfolio. It shows a number of the projects I have made, eith by myself or as part of a team. There are separate pages for an about me, contact, and resume. My resume is downloadable from the site. However the contact me doesn't work at the moment as I search for an smtp server.
+A website to serve as my portfolio. It shows a number of the projects I have made, either by myself or as part of a team. There are separate pages for an about me, contact, and resume. My resume is downloadable from the site. However the contact me doesn't work at the moment as I search for an smtp server.
 
 
 TBD:
+ - nav bar links disappear with smaller screen sizes
  - styling
  - redeploy defunct projects
  - add smtp server
