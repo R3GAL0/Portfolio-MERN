@@ -9,10 +9,10 @@ export default function PortfolioPage() {
     // 0: key, 1: github link, 2: deploymeny/video link, 3: img ref
     return (
 
-        <div>
+        <div className="container">
             <h1>Portfolio</h1>
             {/* loop over projs to get a tile for each */}
-            <ul style={{'listStyle': 'none'}}>
+            <ul className={'row flex-row d-flex'} style={{'listStyle': 'none'}}>
                 {projs.map((proj) => <ProjCard key={proj[0]} proj={proj}/>)}       
             </ul>
         </div>
