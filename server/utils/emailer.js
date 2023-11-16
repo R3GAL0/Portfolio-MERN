@@ -9,6 +9,7 @@ import nodemailer from 'nodemailer'
 
 // making the transporter for the email
 // transporter is broken atm. need to find a new one
+// put auth in .env file
 const transporter = nodemailer.createTransport({
   host: "smtp-relay.brevo.com",
   port: 587,
@@ -19,13 +20,13 @@ const transporter = nodemailer.createTransport({
   }
 });
 
-// takes in a recieving address, a suject, and a message
+// takes in a from address, a subject, and a message
 export default async function sendEmail(email, subject, msg) {
   // send mail with defined transport object
   console.log('Going to send mail')
   const info = await transporter.sendMail({
-    from: '"Max Walent" <maxfwalent@gmail.com>', // sender address
-    to: email, // list of receivers
+    from: email, // sender address
+    to: '"Max Walent" <maxfwalent+portfolio@gmail.com>', // list of receivers
     subject: subject, // Subject line
     text: msg, // plain text body
     html: `<b>${msg}</b>`, // html body
