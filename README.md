@@ -13,3 +13,9 @@ resume page
 add the emailer to the 404 page 
 
 find a server that doesnt need a db
+
+TBD:
+    deployment
+    styling
+    redeploy defunct projects
+    add smtp server

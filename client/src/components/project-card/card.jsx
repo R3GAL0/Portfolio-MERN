@@ -10,8 +10,8 @@ export default function ProjCard({ proj }) {
         }}>
             <div className='infoCard'>
                 <p>{proj[4]}</p>
-                <a href='#'>Demo</a> <br />
-                <a href='#'>Github</a>
+                <a href={proj[2]}>Demo</a> <br />
+                <a href={proj[1]}>Github</a>
             </div>
 
 
