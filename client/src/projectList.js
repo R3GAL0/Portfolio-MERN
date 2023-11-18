@@ -10,6 +10,7 @@ let projs = [
         '/projectImgs/blog.png', 
         'Tech Blog'
     ],
+    // deployment currently nonfunctional
     [
         'p1',
         'https://github.com/R3GAL0/project03-solo',
@@ -39,12 +40,20 @@ let projs = [
         'Text Editor'
     ], 
     [
-        'p3', 
-        'https://github.com/R3GAL0/project01-solo', 
-        'https://main--tourmaline-klepon-57d20b.netlify.app/', 
-        '/projectImgs/pngtree-food-logo-png-image_8239850.png', 
-        "Restaurant Locator"
+        'p7',
+        'https://github.com/R3GAL0/project02-solo',
+        'https://floating-sands-48118-d38c73d975f6.herokuapp.com/',
+        '/projectImgs/medInfo.png',
+        'Med-Info'
     ],
+    // hidden until i can enable the api key
+    // [
+    //     'p3', 
+    //     'https://github.com/R3GAL0/project01-solo', 
+    //     'https://main--tourmaline-klepon-57d20b.netlify.app/', 
+    //     '/projectImgs/pngtree-food-logo-png-image_8239850.png', 
+    //     "Restaurant Locator"
+    // ],
 
 ]
 
