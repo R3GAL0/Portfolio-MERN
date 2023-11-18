@@ -55,5 +55,8 @@ let projs = [
     // ],
 
 ]
+// other functional deployments
+// https://fast-earth-38465-d294b04d7e69.herokuapp.com/
+// https://agile-basin-69547-9c338cf470d4.herokuapp.com/
 
 export default projs
