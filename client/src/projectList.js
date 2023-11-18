@@ -10,11 +10,10 @@ let projs = [
         '/projectImgs/blog.png', 
         'Tech Blog'
     ],
-    // deployment currently nonfunctional
     [
         'p1',
         'https://github.com/R3GAL0/project03-solo',
-        'https://e-store-e55ee7daa6ad.herokuapp.com/',
+        'https://e-store123-c8f23fba8782.herokuapp.com/',
         '/projectImgs/shoppingBag.jpg',
         'E-Commerce'
     ],
